@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap" rel="stylesheet">
+    <title>source-code</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            overflow-x: hidden;
+            font-family: 'Text Me One';
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 440px;
+            position: relative;
+            left: 425px;
+            bottom: 81px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+
+        }
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        .input {
+            display: flex;
+            justify-content: center;
+            font-size: 2rem;
+        }
+
+        input {
+            font-size: 25px;
+            border-radius: 15px;
+            height: 10px;
+            border: 2px solid black;
+            width: 430px;
+            position: relative;
+            bottom: 65px;
+            padding: 20px;
+            left: -1px;
+            margin: -10px 0px;
+            font-family: 'Text Me One';
+        }
+
+        .text {
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: -35px;
+            left: 1px;
+        }
+
+        h5 {
+            font-size: 32px;
+            margin: 45px 470px;
+        }
+
+        .source-code {
+            background-color: #ababab;
+            border-radius: 10px;
+            margin: -75px 300px;
+            width: 50%;
+            height: 182px;
+            padding: 55px 13px;
+        }
+
+        .box4 {
+            background-color: #ababab;
+            border-radius: 10px;
+            margin: 25px 10px;
+            height: 70px;
+            text-align: center;
+            padding: 30px 0px;
+        }
+
+        .copy {
+            font-size: 20px;
+            position: relative;
+            left: 300px;
+            top: 60px;
+        }
+
+        .copy2 {
+            font-size: 20px;
+            position: relative;
+            top: 35px;
+            left: 0px;
+        }
+
+        button {
+            width: 195px;
+            height: 44px;
+            color: green;
+            background: white;
+            border: 2px solid green;
+            border-radius: 15px;
+            font-size: 20px;
+            font-family: 'Text Me One';
+        }
+
+
+
+        button:hover {
+            width: 195px;
+            height: 44px;
+            color: white;
+            background: green;
+            border: 2px solid green;
+            border-radius: 15px;
+            font-size: 20px;
+        }
+
+        .search-button {
+            color: black;
+            font-size: 32px;
+            position: relative;
+            bottom: 117px;
+            left: 865px;
+        }
+
+        .arrow {
+            position: relative;
+            top: 3px;
+        }
+
+        .copy-btn {
+            font-size: 20px;
+            position: relative;
+            left: 770px;
+            bottom: 5px;
+        }
+
+        h2 {
+            position: relative;
+            left: 305px;
+            top: -30px;
+            font-size: 30px;
+        }
+
+
+        @media screen and (max-width :800px) {
+
+            .search-button {
+                position: relative;
+                left: 550px;
+            }
+
+            ul {
+                margin: 10px 150px;
+                left: 140px;
+            }
+
+            .source-code {
+                left: -135px;
+                position: relative;
+                bottom: 10px;
+            }
+
+            h2 {
+                z-index: 99;
+                left: 175px;
+                font-size: 25px;
+                top: -40px;
+
+            }
+
+            .copy {
+                left: 240px;
+            }
+
+        }
+
+
+        @media screen and (max-width :500px) {
+
+            input {
+                width: 300px;
+                margin: 25px auto;
+            }
+
+
+            ul {
+                display: none;
+            }
+
+            .navlinks.active {
+                height: 225px;
+                background: transparent;
+                position: relative;
+                top: -67px;
+                margin-top: 67px;
+            }
+
+            .navlinks.active ul{
+                display: grid;
+                gap: 45px;
+                position: relative;
+                top: -69px;
+                left: 35px;
+            }
+
+            .bar {
+                border: 2px solid;
+                height: 3px;
+                width: 40px;
+                background-color: black;
+                display: inline-block;
+                margin: 0px 350px;
+                position: relative;
+                bottom: 55px;
+                border-radius: 20px;
+            }
+
+
+            .search-button {
+                position: relative;
+                margin: auto -205px;
+                bottom: 150px;
+            }
+
+            .source-code {
+                position: relative;
+                right: 270px;
+                width: 350px;
+                left: -270px;
+            }
+
+            h2 {
+                position: relative;
+                left: 40px;
+                z-index: 99;
+            }
+
+            .copy {
+                position: relative;
+                left: 30px;
+            }
+
+            .copy2 {
+                position: relative;
+                top: 70px;
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+
+        <h1>LOGO</h1>
+        <div class="navlinks">
+            <a href="#" class="toggle-menu">
+                <span class="bar"></span><br>
+                <span class="bar"></span><br>
+                <span class="bar"></span>
+
+            </a>
+
+            <ul>
+                <a href="index.html" class="home">HOME</a>
+                <a href="about.html" class="home">ABOUT</a>
+                <a href="course.html" class="home">COURSE</a>
+                <a href="contact.html" class="home">CONTACT</a>
+            </ul>
+        </div>
+    </div>
+
+    </header><br>
+    <div class="input">
+        <input type="text" placeholder="Search...">
+    </div><br>
+    <span class="search-button"><ion-icon name="search-outline" class="search"></ion-icon></span>
+
+
+
+    <div class="source">
+        <h2>C LANGUAGE SOURCE CODE</h2>
+        <p class="source-code">
+
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam iure dolorem consequatur atque, soluta
+            expedita odio porro eveniet eius. Corporis aut velit nostrum dolorum culpa obcaecati officia omnis
+            repudiandae laudantium?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sunt adipisci, officiis labore mollitia ex
+            amet! Quas accusantium asperiores aliquam distinctio earum commodi quam iure adipisci cumque. Cumque et rem
+            odio vero, quaerat modi quos maiores perspiciatis consequuntur nisi itaque.
+        </p>
+    </div><br>
+    <div class="copy">
+        <p>Source code will appear here</p>
+        </p>
+    </div>
+    <a href="video.html"><button class="copy2"> <ion-icon name="arrow-back-outline" class="arrow"></ion-icon> Back to
+            video</button></a>
+    <span class="copy-btn"><ion-icon name="copy-outline"></ion-icon></span>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
+</html>

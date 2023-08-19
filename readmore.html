@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap" rel="stylesheet">
+    <title>What is html</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            overflow-x: hidden;
+            font-family: 'Text Me One';
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 440px;
+            position: relative;
+            left: 425px;
+            bottom: 81px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+
+        }
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        .input {
+            display: flex;
+            justify-content: center;
+            font-size: 2rem;
+        }
+
+        input {
+            font-size: 25px;
+            border-radius: 15px;
+            height: 10px;
+            border: 2px solid black;
+            width: 430px;
+            position: relative;
+            bottom: 65px;
+            padding: 20px;
+            left: -1px;
+            margin: -10px 0px;
+            font-family: 'Text Me One';
+        }
+
+        .text {
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: -35px;
+            left: 1px;
+        }
+
+        h5 {
+            font-size: 32px;
+            margin: -20px 470px;
+            position: relative;
+            bottom: 30px;
+        }
+
+        .box4 {
+            background-color: #ababab;
+            border-radius: 10px;
+            margin: 25px 10px;
+            height: 70px;
+            text-align: center;
+            padding: 30px 0px;
+        }
+
+        .search-button {
+            color: black;
+            font-size: 32px;
+            position: relative;
+            bottom: 117px;
+            left: 865px;
+        }
+
+
+        @media screen and (max-width :800px) {
+        
+            .search-button {
+                position: relative;
+                left: 550px;
+            }
+
+            ul {
+                margin: 10px 150px;
+                left: 140px;
+            }
+
+            h5{
+                margin: 10px 199px;
+            }
+
+        }
+
+        @media screen and (max-width :500px) {
+
+            input {
+                width: 300px;
+                margin: 25px auto;
+            }
+
+
+            ul {
+                display: none;
+            }
+
+            .navlinks.active {
+                height: 225px;
+                background: transparent;
+                position: relative;
+                top: -67px;
+                margin-top: 67px;
+            }
+
+            .navlinks.active ul{
+                display: grid;
+                gap: 45px;
+                position: relative;
+                top: -69px;
+                left: 35px;
+            }
+
+            .bar {
+                border: 2px solid;
+                height: 3px;
+                width: 40px;
+                background-color: black;
+                display: inline-block;
+                margin: 0px 350px;
+                position: relative;
+                bottom: 55px;
+                border-radius: 20px;
+            }
+
+
+            .search-button {
+                position: relative;
+                margin: auto -205px;
+                bottom: 170px;
+            }
+            .box4 {
+                position: relative;
+                bottom: -400px;
+            }
+
+            h5 {
+                margin: -232px 30px;
+                position: relative;
+                bottom: -160px;
+            }
+
+            span {
+                margin: 170px;
+                position: relative;
+                top: 427px;
+                font-size: 2rem;
+            }
+
+            .left {
+                position: relative;
+                right: 80px;
+            }
+
+            .right {
+                position: relative;
+                left: 80px;
+            }
+
+            .toggle-menu {
+                position: relative;
+                bottom: 484px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+
+        <h1>LOGO</h1>
+        <div class="navlinks">
+            <a href="#" class="toggle-menu">
+                <span class="bar"></span><br>
+                <span class="bar"></span><br>
+                <span class="bar"></span>
+
+            </a>
+
+            <ul>
+                <a href="index.html" class="home">HOME</a>
+                <a href="about.html" class="home">ABOUT</a>
+                <a href="course.html" class="home">COURSE</a>
+                <a href="contact.html" class="home">CONTACT</a>
+            </ul>
+        </div>
+    </div>
+    </header><br>
+    <div class="input">
+        <input type="text" placeholder="Search...">
+    </div><br>
+    <span class="search-button"><ion-icon name="search-outline" class="search"></ion-icon></span>
+
+
+
+    <div class="uses">
+        <h5>What is HTML used for ? </h5>
+        <div class="box4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate aspernatur consectetur mollitia nesciunt
+            nobis repellendus odit corporis eos voluptas? Commodi amet nobis sint hic numquam libero tempore dolorem?
+            Atque, quas!
+        </div>
+        <div class="box4">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure asperiores nisi sapiente! Facere, vel harum
+            quos odit dolorum voluptates asperiores neque? Cumque corporis laborum alias, eos voluptates fuga provident
+            nihil.
+        </div>
+        <div class="box4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor labore vero eos ea est laborum
+            veniam explicabo harum quos, quis maxime necessitatibus hic, debitis dolorem iure. Dignissimos libero quae
+            veritatis?</div>
+        <span>
+            <ion-icon class="left" name="arrow-back-outline"></ion-icon>
+            <ion-icon class="right" name="arrow-forward-outline"></ion-icon>
+            <ion-icon name="play-outline"></ion-icon>
+        </span>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap" rel="stylesheet">
+    <title>course</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Text Me One';
+            overflow-x: hidden;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            margin: -26px 440px;
+            position: relative;
+            left: 425px;
+            bottom: 45px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+
+        }
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        .input {
+            display: flex;
+            justify-content: center;
+            font-size: 2rem;
+        }
+
+        input {
+            font-size: 25px;
+            border-radius: 15px;
+            height: 10px;
+            border: 1px solid black;
+            width: 430px;
+            position: relative;
+            bottom: 14px;
+            padding: 20px;
+            left: -8px;
+            font-family: 'Text Me One';
+        }
+
+        .text {
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: 1px;
+            left: -8px;
+        }
+
+        h3 {
+            font-size: 4rem;
+            margin: -40px 10px;
+        }
+
+        img {
+            width: 135px;
+            height: 195px;
+            position: relative;
+            top: 20px;
+            left: 65px;
+        }
+
+        .python {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            bottom: -20px;
+        }
+
+        .C-PLUS {
+            position: relative;
+            width: 138px;
+            height: 180px;
+            top: 40px;
+            left: -14px;
+        }
+
+        .C {
+            position: relative;
+            height: 200px;
+            width: 172px;
+            left: -75px;
+            top: 35px;
+        }
+
+        .titles {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            left: -25px;
+            bottom: -40px;
+            margin: auto 120px;
+        }
+
+        .para1 {
+            position: relative;
+            left: 100px;
+        }
+
+        .para2 {
+            position: relative;
+            left: 50px;
+        }
+
+        .para3 {
+            position: relative;
+            left: -5px;
+        }
+
+        .para4 {
+            position: relative;
+            left: -50px;
+        }
+
+        .search-button {
+            color: black;
+            font-size: 32px;
+            position: relative;
+            bottom: 76px;
+            left: 865px;
+        }
+
+        .py {
+            height: 150px;
+            position: relative;
+            top: 60px;
+            margin: auto 125px;
+        }
+
+        .continer {
+            display: flex;
+            margin: -107px 160px;
+            justify-content: space-between;
+            position: relative;
+            top: 205px;
+        }
+
+        .continer1 {
+            width: 190px;
+            height: 270px;
+            border: 1px solid black;
+            background-color: #d9d9d9;
+            border-radius: 20px;
+        }
+
+
+        .continer2 {
+            width: 190px;
+            height: 270px;
+            border: 1px solid black;
+            background-color: #d9d9d9;
+            border-radius: 20px;
+        }
+
+        .continer3 {
+            width: 190px;
+            height: 270px;
+            border: 1px solid black;
+            background-color: #d9d9d9;
+            border-radius: 20px;
+        }
+
+        .continer4 {
+            width: 190px;
+            height: 270px;
+            border: 1px solid black;
+            background-color: #d9d9d9;
+            border-radius: 20px;
+        }
+
+        .java {
+            margin: auto -170px;
+        }
+
+
+        @media screen and (max-width :800px) {
+
+
+            ul {
+                margin: -25px 150px;
+                left: 140px;
+                bottom: 50px;
+            }
+
+            .search-button {
+                position: relative;
+                left: 550px;
+            }
+
+
+            .python {
+                margin: 0 -125px;
+                left: -30px;
+                bottom: 85px;
+            }
+
+            .continer {
+                margin: 0 10px;
+            }
+
+            .titles {
+                margin: 0 -40px;
+                left: -20px;
+                bottom: 60px;
+            }
+
+            .C-PLUS {
+                left: -5px;
+            }
+
+            .C {
+                left: -66px;
+            }
+
+            h3 {
+                margin: -85px 0px;
+                top: 50px;
+                position: relative;
+            }
+        }
+
+        @media screen and (max-width :500px) {
+            input {
+                width: 300px;
+                margin: -10px auto;
+            }
+            
+            h3{
+                top: 35px;
+            }
+
+
+            ul {
+                display: none;
+            }
+
+            .navlinks.active {
+                height: 225px;
+                background: transparent;
+                position: relative;
+                top: -67px;
+                margin-top: 67px;
+            }
+
+            .navlinks.active ul {
+                display: grid;
+                gap: 45px;
+                position: relative;
+                top: 10px;
+                left: 50px;
+            }
+
+            .bar {
+                border: 2px solid;
+                height: 3px;
+                width: 40px;
+                background-color: black;
+                display: inline-block;
+                margin: 0px 350px;
+                position: relative;
+                bottom: 55px;
+                border-radius: 20px;
+            }
+
+
+            .search-button {
+                position: relative;
+                margin: auto -205px;
+                bottom: 65px;
+            }
+
+
+            .python {
+                display: grid;
+                gap: 75px;
+                left: 125px;
+                top: 15px;
+            }
+
+            .py {
+                position: relative;
+                left: 20px;
+            }
+
+            .java {
+                position: relative;
+                left: 315px;
+                top: 40px;
+            }
+
+            .C-PLUS {
+                position: relative;
+                left: 143px;
+                top: 15px;
+            }
+
+            .C {
+                position: relative;
+                left: 125px;
+                top: -15px;
+            }
+
+            .continer {
+                display: grid;
+                gap: 40px;
+                margin: -610px 115px;
+                top: 645px;
+            }
+
+            .titles {
+                display: grid;
+                margin: -1044px 90px;
+                gap: 290px;
+                top: 35px;
+                left: -32px;
+            }
+
+            .para2 {
+                position: relative;
+                left: 75px;
+            }
+
+            .para3 {
+                position: relative;
+                left: 95px;
+            }
+
+            .para4 {
+                position: relative;
+                left: 85px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+
+        <h1>LOGO</h1>
+        <div class="navlinks">
+            <a href="#" class="toggle-menu">
+                <span class="bar"></span><br>
+                <span class="bar"></span><br>
+                <span class="bar"></span>
+
+            </a>
+
+            <ul>
+                <a href="index.html" class="home">HOME</a>
+                <a href="about.html" class="home">ABOUT</a>
+                <a href="course.html" class="home">COURSE</a>
+                <a href="contact.html" class="home">CONTACT</a>
+            </ul>
+        </div>
+    </div>
+
+    </header><br>
+    <div class="input">
+        <input type="text" placeholder="Search...">
+    </div><br>
+    <span class="search-button"><ion-icon name="search-outline" class="search"></ion-icon></span>
+
+    <div class="courses">
+        <h3>COURSES</h3>
+        <div class="continer">
+            <div class="continer1"></div>
+            <div class="continer2"></div>
+            <div class="continer3"></div>
+            <div class="continer3"></div>
+        </div>
+        <div class="python">
+            <a href="video.html"> <img class="py" src="img/5848152fcef1014c0b5e4967.png" alt=""></a><br>
+            <a href="img/java.html"><img class="java" src="img/58480979cef1014c0b5e4901.png" alt=""></a><br>
+            <a href="img/c++.html"><img class="C-PLUS"
+                    src="img/kisspng-the-c-programming-language-internet-explorer-5ab6f84e5655f2.7073270515219405583536.png"
+                    alt=""></a><br>
+            <a href="c.html"><img class="C" src="img/5a36954d40bea2.0735336615135266052652.png" alt=""></a><br>
+        </div><br>
+        <div class="titles">
+            <a href="video.html">
+                <p class="para1">FOR BIGINNERS</p>
+            </a>
+            <a href="java.html">
+                <p class="para2">FOR ANDROID APPS</p>
+            </a>
+            <a href="c++.html">
+                <p class="para3">MAKE GMANES</p>
+            </a>
+            <a href="c.html">
+                <p class="para4">HARD TO MASTER</p>
+            </a>
+        </div>
+
+
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
+
+</html>

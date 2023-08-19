@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap" rel="stylesheet">
+    <title>video</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Text Me One';
+            overflow-x: hidden;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 440px;
+            position: relative;
+            left: 425px;
+            bottom: 45px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+
+        }
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        .input {
+            display: flex;
+            justify-content: center;
+            font-size: 2rem;
+        }
+
+        input {
+            font-size: 25px;
+            border-radius: 15px;
+            height: 10px;
+            border: 2px solid black;
+            width: 430px;
+            position: relative;
+            bottom: 50px;
+            padding: 20px;
+            left: -1px;
+            font-family: 'Text Me One';
+        }
+
+        .text {
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: -35px;
+            left: 1px;
+        }
+
+        .video {
+            background-image: url(img/ancode.io-v0.5.png);
+            width: 100%;
+            height: 355px;
+            margin: -120px 315px;
+            position: relative;
+            top: 35px;
+            background-repeat: no-repeat;
+
+
+        }
+
+
+        .bar {
+            border: 2px solid;
+            height: 0px;
+            width: 34px;
+            display: inline-block;
+            margin: 5px 385px;
+            position: relative;
+            bottom: 55px;
+        }
+
+
+
+
+        .underline {
+            border: 2px solid;
+            width: 53%;
+            height: 0px;
+            position: relative;
+            top: 215px;
+            left: 312px;
+        }
+
+        label {
+            position: relative;
+            margin: 0px 280px;
+            top: 320px;
+            font-size: 30px;
+            left: 35px;
+        }
+
+        .discription {
+            position: relative;
+            top: 280px;
+            margin: -69px 315px;
+            right: 0px;
+        }
+
+        /* .source-code {
+            background-color: #ababab;
+            border-radius: 10px;
+            margin: 130px 55px;
+            width: 90%;
+            height: 182px;
+            padding: 55px 13px;
+        } */
+
+        .copy {
+            font-size: 20px;
+            position: relative;
+            top: 35px;
+            left: 1078px;
+        }
+
+        button {
+            width: 270px;
+            height: 44px;
+            color: green;
+            background: white;
+            border: 2px solid green;
+            border-radius: 15px;
+            font-size: 20px;
+            font-family: 'Text Me One';
+        }
+
+
+
+        button:hover {
+            width: 270px;
+            height: 44px;
+            color: white;
+            background: green;
+            border: 2px solid green;
+            border-radius: 15px;
+            font-size: 20px;
+        }
+
+        .search-button {
+            color: black;
+            font-size: 32px;
+            position: relative;
+            bottom: 112px;
+            left: 865px;
+        }
+
+        .arrow {
+            position: relative;
+            top: 3px;
+        }
+
+        .like {
+            position: relative;
+            left: 510px;
+            bottom: -35px;
+        }
+
+        .btns {
+            font-size: 30px;
+            margin: 0px 13px;
+        }
+
+        .btn {
+            font-size: 30px;
+            margin: 0px 13px;
+            position: relative;
+            bottom: 5px;
+        }
+
+        /* h5 {
+            font-size: 32px;
+            margin: 45px 470px;
+        }
+
+        .box4 {
+            background-color: #ababab;
+            border-radius: 10px;
+            margin: 25px 10px;
+            height: 70px;
+            text-align: center;
+            padding: 30px 0px;
+        } */
+
+        .toggle-menu {
+            position: relative;
+            bottom: 60px;
+        }
+
+        @media screen and (max-width :800px) {
+
+            .search-button {
+                position: relative;
+                left: 550px;
+            }
+
+            ul {
+                margin: 10px 150px;
+                left: 140px;
+                bottom: 100px;
+            }
+
+            .video {
+                background-size: 610px auto;
+                left: -265px;
+            }
+
+            .underline {
+                left: 50px;
+                width: 85%;
+            }
+
+            label {
+                left: -222px;
+            }
+
+            .discription {
+                margin: -60px 50px;
+            }
+
+            .like {
+                left: 140px;
+                bottom: 0px;
+            }
+
+            .copy {
+                left: 405px;
+                top: 150px;
+            }
+        }
+
+        @media screen and (max-width :500px) {
+
+            input {
+                width: 300px;
+                margin: 25px auto;
+            }
+
+
+            ul {
+                display: none;
+            }
+
+            .navlinks.active {
+                height: 225px;
+                background: transparent;
+                position: relative;
+                top: -67px;
+                margin-top: 67px;
+            }
+
+            .navlinks.active ul {
+                display: grid;
+                gap: 45px;
+                position: relative;
+                top: -60px;
+                left: 40px;
+            }
+
+            .bar {
+                border: 2px solid;
+                height: 3px;
+                width: 40px;
+                background-color: black;
+                display: inline-block;
+                margin: 0px 350px;
+                position: relative;
+                bottom: -5px;
+                border-radius: 20px;
+            }
+
+            .search-button {
+                position: relative;
+                margin: auto -205px;
+                bottom: 134px;
+            }
+
+            .video {
+                position: relative;
+                left: -297px;
+                background-size: 400px auto;
+                top: 30px;
+            }
+
+            label {
+                position: relative;
+                left: -250px;
+                top: 200px;
+            }
+
+            .underline {
+                position: relative;
+                left: 20px;
+                width: 390px;
+                top: 90px;
+            }
+
+            .discription {
+                margin: -190px 25px;
+            }
+
+            .like {
+                position: relative;
+                left: 187px;
+                margin: 150px;
+                top: 80px;
+            }
+
+            .copy {
+                position: relative;
+                left: 150px;
+                top: 275px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+
+        <h1>LOGO</h1>
+        <div class="navlinks">
+            <a href="#" class="toggle-menu">
+                <span class="bar"></span><br>
+                <span class="bar"></span><br>
+                <span class="bar"></span>
+
+            </a>
+
+            <ul>
+                <a href="index.html" class="home">HOME</a>
+                <a href="about.html" class="home">ABOUT</a>
+                <a href="course.html" class="home">COURSE</a>
+                <a href="contact.html" class="home">CONTACT</a>
+            </ul>
+        </div>
+    </div>
+    </header><br>
+    <div class="input">
+        <input type="text" placeholder="Search...">
+    </div><br>
+    <span class="search-button"><ion-icon name="search-outline" class="search"></ion-icon></span>
+
+    <div class="titles">
+        <label>
+            C++ #1
+        </label>
+
+    </div>
+    <div class="video"></div>
+
+    <div class="underline">
+
+    </div><br>
+
+    <div class="discription">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea explicabo suscipit voluptatem sunt nemo pariatur
+        quia quasi iure quaerat, quae, ex odio eligendi minus non delectus adipisci vero! Quod, blanditiis!
+    </div><br><br><br><br><br><br><br><br><br><br>
+
+    <br>
+    <!-- <div class="source">
+        <p class="source-code">
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam iure dolorem consequatur atque, soluta
+            expedita odio porro eveniet eius. Corporis aut velit nostrum dolorum culpa obcaecati officia omnis
+            repudiandae laudantium?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sunt adipisci, officiis labore mollitia ex
+            amet! Quas accusantium asperiores aliquam distinctio earum commodi quam iure adipisci cumque. Cumque et rem
+            odio vero, quaerat modi quos maiores perspiciatis consequuntur nisi itaque.
+        </p>
+    </div><br> -->
+    <!-- <div class="copy"><p>p class="copy">Source code will appear here</p></p></div> -->
+
+
+    <a href="sourcecode-c++.html">
+        <button class="copy">Click here for source code <ion-icon name="arrow-forward-outline"
+                class="arrow"></ion-icon></button>
+    </a>
+    <span class="like">
+        <ion-icon name="thumbs-up-outline" class="btns"></ion-icon>
+        <ion-icon name="thumbs-down-outline" class="btns"></ion-icon>
+        <ion-icon name="chatbox-outline" class="btns"></ion-icon>
+        <ion-icon name="download-outline" class="btn"></ion-icon>
+    </span>
+    <!-- <span><ion-icon name="lock-closed-outline"></ion-icon></span> -->
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
+</html>

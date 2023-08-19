@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap" rel="stylesheet">
+    <title>ABOUT</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Text Me One';
+            overflow-x: hidden;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            margin: -26px 440px;
+            position: relative;
+            left: 425px;
+            bottom: 45px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+
+        }
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        .input {
+            display: flex;
+            justify-content: center;
+            font-size: 2rem;
+        }
+
+        input {
+            font-size: 25px;
+            border-radius: 15px;
+            height: 10px;
+            border: 1px solid black;
+            width: 430px;
+            position: relative;
+            bottom: 14px;
+            padding: 20px;
+            left: -8px;
+            font-family: 'Text Me One';
+        }
+
+
+        h3 {
+            font-size: 4rem;
+            margin: -60px 10px;
+        }
+
+        .About-para {
+            font-size: 20px;
+            margin: 80px 40px;
+        }
+
+        .search-button {
+            color: black;
+            font-size: 32px;
+            position: relative;
+            bottom: 76px;
+            left: 865px;
+        }
+
+        @media screen and (max-width :800px) {
+
+            .search-button {
+                position: relative;
+                left: 550px;
+            }
+
+            ul {
+                margin: -25px 150px;
+                left: 140px;
+                bottom: 50px;
+            }
+        }
+
+        @media screen and (max-width :500px) {
+
+            input {
+                width: 300px;
+                margin: 0px auto;
+            }
+
+
+            ul {
+                display: none;
+            }
+
+            .navlinks.active {
+                height: 225px;
+                background: transparent;
+                position: relative;
+                top: -67px;
+                margin-top: 67px;
+            }
+
+            .navlinks.active ul {
+                display: grid;
+                gap: 45px;
+                position: relative;
+                top: 10px;
+                left: 50px;
+            }
+
+            .bar {
+                border: 2px solid;
+                height: 3px;
+                width: 40px;
+                background-color: black;
+                display: inline-block;
+                margin: 0px 350px;
+                position: relative;
+                bottom: 55px;
+                border-radius: 20px;
+            }
+
+
+            .search-button {
+                position: relative;
+                margin: auto -205px;
+                bottom: 75px;
+            }
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+
+        <h1>LOGO</h1>
+        <div class="navlinks">
+            <a href="#" class="toggle-menu">
+                <span class="bar"></span><br>
+                <span class="bar"></span><br>
+                <span class="bar"></span>
+
+            </a>
+
+            <ul>
+                <a href="index.html" class="home">HOME</a>
+                <a href="about.html" class="home">ABOUT</a>
+                <a href="course.html" class="home">COURSE</a>
+                <a href="contact.html" class="home">CONTACT</a>
+            </ul>
+        </div>
+    </div>
+
+
+    </header><br>
+    <div class="input">
+        <input type="text" placeholder="Search...">
+    </div><br>
+    <span class="search-button"><ion-icon name="search-outline" class="search"></ion-icon></span>
+
+    <div class="ABOUT" id="about">
+        <h3>About</h3>
+        <p class="About-para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, quam, sed ea veniam illo fugiat nemo
+            aliquam consectetur veritatis possimus eum unde labore rem autem placeat doloremque et maxime? Et earum
+            dignissimos soluta perspiciatis! Neque dicta cumque, repellat vitae earum quae explicabo delectus atque sunt
+            molestiae magnam ad quidem illum!
+        </p>
+        <p class="About-para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, quam, sed ea veniam illo fugiat nemo
+            aliquam consectetur veritatis possimus eum unde labore rem autem placeat doloremque et maxime? Et earum
+            dignissimos soluta perspiciatis! Neque dicta cumque, repellat vitae earum quae explicabo delectus atque sunt
+            molestiae magnam ad quidem illum!
+        </p>
+        <p class="About-para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, quam, sed ea veniam illo fugiat nemo
+            aliquam consectetur veritatis possimus eum unde labore rem autem placeat doloremque et maxime? Et earum
+            dignissimos soluta perspiciatis! Neque dicta cumque, repellat vitae earum quae explicabo delectus atque sunt
+            molestiae magnam ad quidem illum!
+        </p>
+    </div><br>
+
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap" rel="stylesheet">
+    <title>contact</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Text Me One';
+            overflow-x: hidden;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            margin: -26px 440px;
+            position: relative;
+            left: 425px;
+            bottom: 45px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+
+        }
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        .input {
+            display: flex;
+            justify-content: center;
+            font-size: 2rem;
+        }
+
+        input {
+            font-size: 25px;
+            border-radius: 15px;
+            height: 10px;
+            border: 1px solid black;
+            width: 430px;
+            position: relative;
+            bottom: 14px;
+            padding: 20px;
+            left: -8px;
+            font-family: 'Text Me One';
+        }
+
+
+
+
+        .name {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            left: 440px;
+            width: 500px;
+            height: 70px;
+            border: none;
+            background-color: #d9d9d9;
+            border-radius: 10px;
+            padding: 0px 15px;
+            height: 50px;
+            top: 30px;
+            font-family: 'Text Me One';
+        }
+
+        h3 {
+            font-size: 4rem;
+            margin: 0px 10px;
+        }
+
+        button {
+            width: 138px;
+            height: 44px;
+            color: green;
+            background: white;
+            border: 2px solid green;
+            border-radius: 15px;
+            font-size: 20px;
+        }
+
+
+
+        button:hover {
+            width: 138px;
+            height: 44px;
+            color: white;
+            background: green;
+            border: 2px solid green;
+            border-radius: 15px;
+            font-size: 20px;
+        }
+
+
+
+        .message {
+            position: relative;
+            left: 440px;
+            width: 500px;
+            height: 130px;
+            border: none;
+            background-color: #d9d9d9;
+            border-radius: 10px;
+            padding: 0px 15px;
+            top: 30px;
+            font-family: 'Text Me One';
+        }
+
+        .submit {
+            position: relative;
+            left: 605px;
+            top: 30px;
+        }
+
+        .search-button {
+            color: black;
+            font-size: 32px;
+            position: relative;
+            bottom: 76px;
+            left: 865px;
+        }
+
+        @media screen and (max-width :800px) {
+
+            .search-button {
+                position: relative;
+                left: 550px;
+            }
+
+            ul {
+                margin: 10px 150px;
+                left: 140px;
+                bottom: 75px;
+            }
+
+            .name {
+                left: 100px;
+            }
+
+            .message {
+                left: 100px;
+            }
+
+            .submit {
+                left: 300px;
+            }
+
+            h3 {
+                margin: -25px 0px;
+                bottom: 20px;
+                position: relative;
+            }
+        }
+
+        @media screen and (max-width :500px) {
+            input {
+                width: 300px;
+                margin: -10px auto;
+            }
+
+            h3 {
+                top: 5px;
+            }
+
+
+            ul {
+                display: none;
+            }
+
+            .navlinks.active {
+                height: 225px;
+                background: transparent;
+                position: relative;
+                top: -67px;
+                margin-top: 67px;
+            }
+
+            .navlinks.active ul {
+                display: grid;
+                gap: 45px;
+                position: relative;
+                top: -40px;
+                left: 45px;
+            }
+
+            .bar {
+                border: 2px solid;
+                height: 3px;
+                width: 40px;
+                background-color: black;
+                display: inline-block;
+                margin: 0px 350px;
+                position: relative;
+                bottom: 55px;
+                border-radius: 20px;
+            }
+
+
+            .search-button {
+                position: relative;
+                margin: auto -205px;
+                bottom: 65px;
+            }
+
+            .name {
+                position: relative;
+                left: -3px;
+                width: 300px;
+                margin: 0px auto;
+                top: 80px;
+            }
+
+            .message {
+                position: relative;
+                left: 48px;
+                width: 300px;
+                margin: 0px auto;
+                top: 80px;
+            }
+
+            .submit {
+                position: relative;
+                left: 150px;
+                top: 80px;
+            }
+
+
+        }
+
+        /* .plane {
+
+            position: relative;
+            left: 733px;
+            top: 31px;
+            z-index: 99;
+            color: green;
+        } */
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+
+        <h1>LOGO</h1>
+        <div class="navlinks">
+            <a href="#" class="toggle-menu">
+                <span class="bar"></span><br>
+                <span class="bar"></span><br>
+                <span class="bar"></span>
+
+            </a>
+
+            <ul>
+                <a href="index.html" class="home">HOME</a>
+                <a href="about.html" class="home">ABOUT</a>
+                <a href="course.html" class="home">COURSE</a>
+                <a href="contact.html" class="home">CONTACT</a>
+            </ul>
+        </div>
+    </div>
+
+    </header><br>
+    <div class="input">
+        <input type="text" placeholder="Search...">
+    </div><br>
+    <span class="search-button"><ion-icon name="search-outline" class="search"></ion-icon></span>
+
+
+    <div class="continer" id="contact">
+        <h3>CONTACT</h3>
+        <input class="name" type="text" placeholder="Name"><br>
+        <input class="name" type="email" placeholder="Email"><br>
+        <input class="message" type="text" placeholder="message...">
+    </div><br>
+    <!-- <ion-icon class="plane" name="paper-plane-outline"></ion-icon> -->
+    <button class="submit">
+        submit
+    </button>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
+
+</html>
